@@ -14,7 +14,7 @@ export default function Background() {
     >
       <div
         className={css`
-          background-image: url('images/bg01.jpg');
+          background-image: url('/images/bg01.jpg');
           background-repeat: no-repeat;
           background-size: cover;
           position: absolute;
