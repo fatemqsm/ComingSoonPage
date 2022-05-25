@@ -29,7 +29,7 @@ export default function Background() {
           alt="background image"
           loading="lazy"
           layout="fill"
-          src="../../public/images/bg01.jpg"
+          src="/images/bg01.jpg"
           objectFit="cover"
           objectPosition="30% 30%"
         />
