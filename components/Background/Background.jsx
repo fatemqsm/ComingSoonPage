@@ -78,7 +78,8 @@ export default function Background() {
           </h1>
 
           <CountDown />
-          <div
+          <form
+            onClick={(event) => event.preventDefault()}
             className={css`
               display: flex;
               flex-direction: row;
@@ -96,6 +97,7 @@ export default function Background() {
             `}
           >
             <input
+              type="email"
               placeholder="Your Email"
               className={css`
                 color: #846add;
@@ -115,6 +117,7 @@ export default function Background() {
               `}
             />
             <button
+              type="submit"
               className={css`
                 padding: 0 20px;
                 background-color: #846add;
@@ -131,7 +134,7 @@ export default function Background() {
             >
               Get Notified
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </div>

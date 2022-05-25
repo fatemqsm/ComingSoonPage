@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import Reset from './components/Reset/Reset'
+import Reset from '../components/Reset/Reset'
 
 export default function Document() {
   return (
