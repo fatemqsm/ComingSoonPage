@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { css } from '@emotion/css'
 import CountDown from '../CountDown/CountDown'
+import Image from 'next/image'
 
 export default function Background() {
   const BREACKPOINT = [576, 768, 992, 1200]
@@ -14,21 +15,25 @@ export default function Background() {
     >
       <div
         className={css`
-          background-image: url('/images/bg01.jpg');
-          background-repeat: no-repeat;
-          background-size: cover;
           position: absolute;
           width: 100%;
           height: 100vh;
           z-index: -1;
           text-align: center;
-          background-position: 85% 15%;
           ${mq[1]} {
             min-height: 400px;
-            background-position: 25% 75%;
           }
         `}
-      ></div>
+      >
+        <Image
+          alt="background image"
+          loading="lazy"
+          layout="fill"
+          src="/images/bg01.jpg"
+          objectFit="cover"
+          objectPosition="30% 30%"
+        />
+      </div>
       <div
         className={css`
           top: 60px;
@@ -36,10 +41,10 @@ export default function Background() {
           width: 100%;
           margin-bottom: 60px;
           ${mq[1]} {
-            top: 20px;
+            top: 40px;
           }
           ${mq[0]} {
-            margin-bottom: 20px;
+            margin-bottom: 40px;
           }
         `}
       >
