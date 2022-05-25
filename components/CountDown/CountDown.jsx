@@ -81,7 +81,7 @@ export default function CountDown() {
           background-color: #333333;
           border-radius: 10px;
           color: white;
-          padding: 20px 10px 0px 10px;
+          padding: 22px 10px 15px 10px;
           width: 95px;
           text-align: center;
         `}
@@ -97,6 +97,7 @@ export default function CountDown() {
         <p
           className={css`
             font-size: 0.9rem;
+            margin-top: 10px;
           `}
         >
           Days
@@ -108,7 +109,7 @@ export default function CountDown() {
           background-color: #333333;
           border-radius: 10px;
           color: white;
-          padding: 20px 10px 0px 10px;
+          padding: 22px 10px 15px 10px;
           width: 95px;
           text-align: center;
         `}
@@ -124,6 +125,7 @@ export default function CountDown() {
         <p
           className={css`
             font-size: 0.9rem;
+            margin-top: 10px;
           `}
         >
           Hours
@@ -135,7 +137,7 @@ export default function CountDown() {
           background-color: #333333;
           border-radius: 10px;
           color: white;
-          padding: 20px 10px 0px 10px;
+          padding: 22px 10px 15px 10px;
           width: 95px;
           text-align: center;
         `}
@@ -151,6 +153,7 @@ export default function CountDown() {
         <p
           className={css`
             font-size: 0.9rem;
+            margin-top: 10px;
           `}
         >
           Minutes
@@ -162,7 +165,7 @@ export default function CountDown() {
           background-color: #333333;
           border-radius: 10px;
           color: white;
-          padding: 20px 10px 0px 10px;
+          padding: 22px 10px 15px 10px;
           width: 95px;
           text-align: center;
         `}
@@ -178,6 +181,7 @@ export default function CountDown() {
         <p
           className={css`
             font-size: 0.9rem;
+            margin-top: 10px;
           `}
         >
           Seconds
