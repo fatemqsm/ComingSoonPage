@@ -55,7 +55,9 @@
   line-height: 1.5;
   font-size: 1.5rem;
 }
-
+.description:hover .title{
+  color: palevioletred;
+}
 .code {
   background: #fafafa;
   border-radius: 5px;
