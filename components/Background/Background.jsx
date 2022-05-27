@@ -132,9 +132,19 @@ export default function Background() {
                 }
               `}
             >
-              Get Notified
+              Join us
             </button>
           </form>
+          <h2
+            className={css`
+              font-size: 0.6rem;
+              text-align: center;
+              color: #999999;
+              font-weight: 100;
+            `}
+          >
+            Join us to subscribe to the newsletter.
+          </h2>
         </div>
       </div>
     </div>
