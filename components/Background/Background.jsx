@@ -92,7 +92,7 @@ export default function Background() {
               }
               ${mq[0]} {
                 flex-direction: column;
-                margin: 20px 0;
+                margin: 40px 0 5px 0;
               }
             `}
           >
@@ -137,7 +137,7 @@ export default function Background() {
           </form>
           <h2
             className={css`
-              font-size: 0.6rem;
+              font-size: 0.8rem;
               text-align: center;
               color: #999999;
               font-weight: 100;
