@@ -10,8 +10,7 @@ export default function Home() {
 
   useEffect(() => {
     if (online) {
-      toast('You are online')
-      notifyMe('You are online')
+      notifyMe('Welcome')
     } else {
       toast('You are offline')
       notifyMe('You are offline')
